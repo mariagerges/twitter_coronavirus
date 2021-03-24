@@ -1,4 +1,5 @@
 # Coronavirus twitter analysis
+This project analyzes all data about the COVID Pandemic from all countries and languages using shell
 
 You will scan all geotagged tweets sent in 2020 to monitor for the spread of the coronavirus on social media.
 
