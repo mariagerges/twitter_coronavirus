@@ -26,12 +26,12 @@ if args.percent:
         counts[args.key][k] /= counts['_all'][k]
 
 # print the count values
-items_sorted = sorted(counts[args.key].items(), key=lambda item: (item[0],item[1]))
-for k,v in items_sorted:
+items = sorted(counts[args.key].items(), key=lambda item: item[1], reverse=False)
+for k,v in items:
     print(k,':',v)
 
 # Create bar plot
-for k,v in items_sorted[:10]:
+for k,v in items[:10]:
     plt.bar(k, v)
 
 # Set plot title and axis labels
@@ -40,8 +40,7 @@ plt.xlabel('Country')
 plt.ylabel('Number of Tweets')
 
 # Save plot as PNG file
-plt.savefig('coronavirus_c.png')
-
+plt.savefig('coronavirus_country.png')
 
 # Show plot
 plt.show()
