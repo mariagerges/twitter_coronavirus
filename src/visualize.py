@@ -34,13 +34,15 @@ for k,v in items:
 for k,v in reversed(items[:10]):
     plt.bar(k, v)
 
-# Set plot title and axis labels
-plt.title('Top 10 countries for #coronavirus Hashtag')
-plt.xlabel('Language')
-plt.ylabel('Number of Tweets')
+if args.input_path == "reduced.lang":
+    plt.xlabel("Language")
+    plt.ylabel("Tweets with" + args.key)
+else:
+    plt.xlabel("Country")
+    plt.ylabel("Tweets with" + args.key)
 
 # Save plot as PNG file
-plt.savefig('lang_Coronavirus.png')
+plt.savefig(args.input_path + args.key + '.png')
 
 
 # Show plot
