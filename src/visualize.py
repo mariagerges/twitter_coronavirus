@@ -27,7 +27,7 @@ if args.percent:
 
 # print the count values
 items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True)
-for k,v in items[-10:][::-1]:
+for k,v in items:
     print(k,':',v)
 
 # Create bar plot
