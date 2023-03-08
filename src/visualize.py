@@ -37,9 +37,11 @@ for k,v in reversed(items[:10]):
 if args.input_path == "reduced.lang":
     plt.xlabel("Language")
     plt.ylabel("Tweets with" + args.key)
+    plt.title("Usage of " + args.key + " in different languages")
 else:
     plt.xlabel("Country")
     plt.ylabel("Tweets with" + args.key)
+    plt.title("Usage of " + args.key + " in different countries")
 
 # Save plot as PNG file
 plt.savefig(args.input_path + args.key + '.png')
