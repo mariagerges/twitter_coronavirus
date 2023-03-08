@@ -26,7 +26,7 @@ if args.percent:
         counts[args.key][k] /= counts['_all'][k]
 
 # print the count values
-items = sorted(counts[args.key].items(), key=lambda item: item[1], reverse=False)
+items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]))
 for k,v in items:
     print(k,':',v)
 
@@ -42,6 +42,6 @@ plt.ylabel('Number of Tweets')
 # Save plot as PNG file
 plt.savefig('coronavirus_country.png')
 
+
 # Show plot
 plt.show()
-
