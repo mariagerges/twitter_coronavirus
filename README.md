@@ -182,7 +182,7 @@ For example, should the term `corona` count tweets that contain `coronavirus` as
 These are relatively insignificant decisions.
 I'm more concerned with your ability to write a shell script and use `nohup`, `&`, and other process control tools effectively.
 
-##Results
+## Results
 
 These four png images display the analysis of the usage of #coronavirus and #코로나바이러스 in various countries and languages. A shell script run_viz.sh was created to automate the generation of these graphs. The script runs the visualize.py file for each hashtag, depending on whether we are analyzing countries or languages. 
 
