@@ -31,7 +31,7 @@ for k,v in items[-10:][::-1]:
     print(k,':',v)
 
 # Create bar plot
-for k,v in items[:10]:
+for k,v in reversed(items[:10]):
     plt.bar(k, v)
 
 # Set plot title and axis labels
