@@ -186,12 +186,12 @@ I'm more concerned with your ability to write a shell script and use `nohup`, `&
 
 These four png images display the analysis of the usage of #coronavirus and #코로나바이러스 in various countries and languages. A shell script run_viz.sh was created to automate the generation of these graphs. The script runs the visualize.py file for each hashtag, depending on whether we are analyzing countries or languages. 
 
-![Country Coronavirus](https://raw.githubusercontent.com/mariagerges/twitter_coronavirus/master/plots/reduced.country.%23coronavirus.png)
-![Language Coronavirus](https://raw.githubusercontent.com/mariagerges/twitter_coronavirus/master/plots/reduced.lang.%23coronavirus.png)
+![Country Coronavirus](https://github.com/mariagerges/twitter_coronavirus/blob/master/plots/reduced.country%23coronavirus.png)
+![Language Coronavirus](https://github.com/mariagerges/twitter_coronavirus/blob/master/plots/reduced.lang%23coronavirus.png)
 
 `#coronavirus` was used most frequently in the USA. The most common language it was tweeted in was English. 
 
-![Country #코로나바이러스](https://raw.githubusercontent.com/mariagerges/twitter_coronavirus/master/plots/reduced.country.%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.png)
-![Language #코로나바이러스](https://raw.githubusercontent.com/mariagerges/twitter_coronavirus/master/plots/reduced.lang.%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.png)
+![Country #코로나바이러스](https://github.com/mariagerges/twitter_coronavirus/blob/master/plots/reduced.country%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.png)
+![Language #코로나바이러스](https://github.com/mariagerges/twitter_coronavirus/blob/master/plots/reduced.lang%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.png)
 
 `#코로나바이러스` was used most frequently in Korea. The most common language it was tweeted in was Korean.
